@@ -12,7 +12,7 @@ if ($conn  -> connect_errno) {
 
 $equis = $_GET['equis'];
 $ye = $_GET['ye'];
-$content = $_GET['content']
+$content = $_GET['content'];
 
 if(!empty($equis)){
    $sql = "INSERT INTO jesuschrist (equis, ye) VALUES ('".$equis."', '".$ye."')";
